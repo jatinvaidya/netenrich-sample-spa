@@ -39,7 +39,7 @@ const App = () => {
 						<Route path="/" exact component={Home} />
 						<Route path="/profile" component={Profile} />
 						<Route path="/external-api" component={ExternalApi} />
-						<Route path="/external-api" component={Login} />
+						<Route path="/login" component={Login} />
 					</Switch>
 				</Container>
 				<Footer />
